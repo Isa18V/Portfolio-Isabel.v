@@ -1,7 +1,22 @@
 body {
-  background-color: aquamarine;
+  background-color: #e7dfe0;
 }
-
-h1 {
-  text-align: center;
+hearder {
+  z-index: 3;
+}
+.home-container {
+  height: 100vh;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.isa-imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.isa-image {
+  max-width: 100%;
 }
