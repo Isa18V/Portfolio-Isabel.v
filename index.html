@@ -5,56 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awsome -->
+    <script src="https://kit.fontawesome.com/41ba5dd026.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- font-awsome -->
-    <script src="https://kit.fontawesome.com/41ba5dd026.js" crossorigin="anonymous"></script>
     <!-- css link -->
     <link rel="stylesheet" href="styles/portfolio.css">
     <title>Isabel Voican</title>
 </head>
 
 <body>
-    <div class="bigContainer">
-        <!-- navbar -->
-        <header>
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="index.html"
-                                title="homepage link">Home</a>
-                            <a class="nav-link" href="about.html" title="about me page link">About Me</a>
-                            <a class="nav-link" href="about.html#contact" title="contact me page link">Contact me</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
-        <!-- this is the container that holds all the home page -->
-        <div class="home-container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="isa-imageContainer">
-                        <img class="isa-image" src="images/isaPic.png" alt="">
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-
-                </div>
+    <div class="mainContainer">
+        <header class="header">
+            <div class="logo">
+                <h2 style="color: white ">Portfolio</h2>
             </div>
-        </div>
-        <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+            <div class="navigation">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
     </div>
 </body>
 
