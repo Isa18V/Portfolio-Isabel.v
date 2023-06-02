@@ -258,9 +258,14 @@ header {
   padding: 50px;
   padding-top: 100px;
   min-height: 100vh;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.servicesContainer h2 {
+  margin-bottom: 50px;
+  color: var(--primary-color);
 }
 .servicesContent {
   display: flex;
@@ -286,7 +291,7 @@ header {
   z-index: -1;
   top: -15px;
   right: -15px;
-  background: var(--primary-color);
+  background: var(--second-background-color);
   height: 220px;
   width: 25px;
   border-radius: 32px;
@@ -313,9 +318,14 @@ header {
   padding: 50px;
   padding-top: 100px;
   min-height: 100vh;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.portfolioContainer h2 {
+  margin-bottom: 50px;
+  color: var(--primary-color);
 }
 .portfolioContent {
   display: flex;
@@ -396,10 +406,15 @@ header {
   padding: 50px;
   padding-top: 100px;
   min-height: 100vh;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.contactsContainer h2 {
+  margin-bottom: 50px;
+  color: var(--primary-color);
 }
 
 input[type="text"] {
@@ -407,25 +422,38 @@ input[type="text"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 button[type="submit"] {
   width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
+
 /* ///////////////////////////// */
 @media (max-width: 767px) {
   .isaImage {
