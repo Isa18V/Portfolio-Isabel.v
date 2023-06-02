@@ -202,7 +202,7 @@ header {
   padding: 2px;
 }
 
-.button {
+.buttonHome {
   background-color: var(--second-background-color);
   border: none;
   border-radius: 20px;
@@ -218,7 +218,7 @@ header {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-.button1:hover {
+.buttonHome1:hover {
   box-shadow: 0 12px 16px 0 #8a9da7b3, 0 17px 50px 0 #8a9da76b;
 }
 
@@ -325,8 +325,8 @@ header {
 .card {
   --font-color: #323232;
   --bg-color: #e7dfe0;
-  width: 250px;
-  height: 450px;
+  /* width: 250px; */
+  height: auto;
   border-radius: 20px;
   background: var(--bg-color);
   box-shadow: -9px 9px 18px #5a5a5a, 9px -9px 18px #ffffff;
@@ -390,7 +390,42 @@ header {
 .card__links .link:hover {
   text-decoration: underline;
 }
+/* ///////////////////////////// */
 
+.contactsContainer {
+  padding: 50px;
+  padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 /* ///////////////////////////// */
 @media (max-width: 767px) {
   .isaImage {
