@@ -264,7 +264,6 @@ header {
 }
 .servicesContent {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -327,7 +326,7 @@ header {
   --font-color: #323232;
   --bg-color: #e7dfe0;
   width: 250px;
-  height: auto;
+  height: 450px;
   border-radius: 20px;
   background: var(--bg-color);
   box-shadow: -9px 9px 18px #5a5a5a, 9px -9px 18px #ffffff;
@@ -371,7 +370,6 @@ header {
 .svg {
   width: 25px;
   height: 25px;
-  transform: translateY(25%);
   fill: var(--font-color);
 }
 
